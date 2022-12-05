@@ -12,7 +12,7 @@ export const card = (id, title, description, image) => {
     if(image){
       html += `<img src="${image}" class="image">`;
     }
-    html += `<button>class="edit button is-warning" data-id="${id}">Editar</button>
+    html += `<button class="edit button is-warning" data-id="${id}">Editar</button>
   </article>`;
     div.innerHTML = html;
     return div;
